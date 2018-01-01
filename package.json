@@ -1,6 +1,17 @@
 {
   "name": "microbe-tools",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "description": "Microbe Tools",
+  "repository": "cbdowell/microbe-tools",
+  "bugs": "https://github.com/cbdowell/microbe-tools/issues",
+  "homepage": "https://github.com/cbdowell/microbe-tools",
+  "license": "MIT",
+  "scripts": {
+    "push-changes": "node ./scripts/push-changes.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "shelljs": "^0.7.8",
+    "husky": "^0.14.3"
+  }
 }
